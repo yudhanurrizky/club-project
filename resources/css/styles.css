@@ -37,6 +37,20 @@
 }
 
 
+/* MAIN-EVENTS */
+
+.events {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.events .container {
+    display: flex; 
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
 
 
 
