@@ -20,5 +20,23 @@
 }
 
 
+/* MAIN-BANNER */
+
+.banner {
+    margin-top: 2em;;
+    background-image: url(/resources/images/banner.jpg);
+    padding: 10% 10% 0 0;
+    background-repeat: no-repeat;
+    background-position: 50% 40%;
+    background-size: 170%;
+}
+
+.banner .container {
+    font-size: 2em;
+    text-shadow: 1px 1px black;
+}
+
+
+
 
 
