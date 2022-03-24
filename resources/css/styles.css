@@ -28,6 +28,16 @@ body {
     background-color: azure;
 }
 
+@media screen and (max-device-width: 480px) {
+    .navbar {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        justify-items: stretch;
+        text-align: center;
+    }
+}
+
 
 /* MAIN-BANNER */
 
@@ -67,6 +77,19 @@ body {
     height: 250px;
 }
 
+@media screen and (max-device-width: 480px) {
+    .events .container {
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .events img {
+        width: 80%;
+        height: auto; 
+    }
+}
 
 /* MAIN-AIRPLANES */
 
