@@ -75,6 +75,11 @@ body {
     color: white;
 }
 
+.airplanes img {
+    width: 350px;
+    height: 250px;
+}
+
 
 /* MAIN-LOCATIONS */
 
