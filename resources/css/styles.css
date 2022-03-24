@@ -74,6 +74,27 @@ body {
     background-color: #3b4875;
     color: white;
     margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.airplanes h2 {
+    text-align: center;
+}
+
+.airplanes .container-signature {
+    display: flex;
+    font-size: 3em;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.airplanes .container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2em;
+    flex-wrap: wrap;    
 }
 
 .airplanes img {
