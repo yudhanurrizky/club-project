@@ -5,6 +5,10 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
+body a, p, h1, h2, h3 {
+    color: white;
+}
+
 
 /* HEADER */
 
@@ -16,7 +20,6 @@ body {
 }
 
 .navbar a {
-    color: white;
     font-size: 1.2em;
     padding: 0px;
     text-decoration: none;
