@@ -33,6 +33,7 @@ body {
 .banner {
     margin-top: 2em;;
     padding: 2%;
+    background-color:#3b4875;
 }
 
 .banner .container {
@@ -48,6 +49,8 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
+    background-color: #3b4875;
+    margin-top: 2em;
 }
 
 .events .container {
@@ -61,6 +64,19 @@ body {
     height: 250px;
 }
 
+
+/* MAIN-AIRPLANES */
+
+.airplanes {
+    background-color: #3b4875
+}
+
+
+/* MAIN-LOCATIONS */
+
+.locations {
+    background-color: #3b4875
+}
 
 
 
