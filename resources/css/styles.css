@@ -112,6 +112,23 @@ body {
 .locations {
     background-color: #3b4875;
     color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+}
+
+.locations h2 {
+    text-align: center;
+}
+
+.locations .container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.locations .card {
+    text-align: center;
 }
 
 .locations img {
