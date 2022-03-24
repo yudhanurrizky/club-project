@@ -73,6 +73,7 @@ body {
 .airplanes {
     background-color: #3b4875;
     color: white;
+    margin-top: 2em;
 }
 
 .airplanes img {
