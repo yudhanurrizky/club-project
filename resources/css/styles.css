@@ -97,6 +97,10 @@ body {
     flex-wrap: wrap;    
 }
 
+.airplanes .card {
+    text-align: center;
+}
+
 .airplanes img {
     width: 350px;
     height: 250px;
