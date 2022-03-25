@@ -36,6 +36,10 @@ body {
         justify-items: stretch;
         text-align: center;
     }
+
+    .button {
+        font-size: 2.2em;
+    }
 }
 
 
@@ -110,6 +114,7 @@ body {
     font-size: 3em;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    justify-items: center;
     align-items: center;
 }
 
@@ -127,6 +132,20 @@ body {
 .airplanes img {
     width: 350px;
     height: 250px;
+}
+
+@media screen and (max-device-width: 480px) {
+    .airplanes .container {
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .airplanes img {
+        width: 600px;
+        height: 500px; 
+    }
 }
 
 
@@ -157,6 +176,20 @@ body {
 .locations img {
     width: 250px;
     height: 250px;
+}
+
+@media screen and (max-device-width: 480px) {
+    .locations .container {
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .locations img {
+        width: 550px;
+        height: 550px; 
+    }
 }
 
 
